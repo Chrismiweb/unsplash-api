@@ -26,7 +26,7 @@ function Weather() {
     <div>
         <input type="search" onChange={(e)=>setSearch(e.target.value)} value={search} placeholder='search location'/>
         <button onClick={fecthWeather}>search</button>
-        
+        {/* commentsg */}
         {
             city &&
             <p>{city[0].name}</p>
